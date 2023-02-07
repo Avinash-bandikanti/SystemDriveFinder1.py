@@ -1,0 +1,18 @@
+INFO:root:A New Log came
+INFO:root:Log is Recorded
+INFO:root:A New Log came
+INFO:root:Log is Recorded
+INFO:root:A New Log came
+ERROR:root:invalid literal for int() with base 10: 'c'
+Traceback (most recent call last):
+  File "C:\Users\user798\PycharmProjects\Team-1\level 5\loggers_demo1.py", line 5, in <module>
+    n1=int(input("Enter the First Number"))
+ValueError: invalid literal for int() with base 10: 'c'
+INFO:root:Log is Recorded
+INFO:root:A New Log came
+ERROR:root:invalid literal for int() with base 10: 'a'
+Traceback (most recent call last):
+  File "C:\Users\user798\PycharmProjects\Team-1\level 5\loggers_demo1.py", line 5, in <module>
+    n1=int(input("Enter the First Number"))
+ValueError: invalid literal for int() with base 10: 'a'
+INFO:root:Log is Recorded
